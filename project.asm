@@ -12,4 +12,7 @@
     li $v0, 5              
     syscall
     move $t0, $v0          
- 
+
+check_input:
+    blt $t0, 25, invalid    
+    j step2                 
