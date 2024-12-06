@@ -16,3 +16,9 @@
 check_input:
     blt $t0, 25, invalid    
     j step2                 
+
+invalid:
+    li $v0, 4               
+    la $a0, error
+    syscall
+    j main                  
