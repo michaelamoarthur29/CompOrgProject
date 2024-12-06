@@ -22,3 +22,8 @@ invalid:
     la $a0, error
     syscall
     j main                  
+
+step2:
+    li $t1, 0               
+    li $t2, 1               
+    li $t3, 0               
