@@ -40,3 +40,6 @@ fibonacci_loop:
     add $t4, $t1, $t2       
     move $t1, $t2
     move $t2, $t4           
+
+ addi $t3, $t3, 1        
+    j fibonacci_loop       
