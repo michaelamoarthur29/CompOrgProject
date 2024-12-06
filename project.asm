@@ -27,3 +27,9 @@ step2:
     li $t1, 0               
     li $t2, 1               
     li $t3, 0               
+
+fibonacci_loop:
+    beq $t3, $t0, exit     
+    move $a0, $t1
+    li $v0, 1              
+    syscall
