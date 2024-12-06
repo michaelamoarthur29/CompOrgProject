@@ -33,3 +33,10 @@ fibonacci_loop:
     move $a0, $t1
     li $v0, 1              
     syscall
+
+    li $v0, 4               
+    la $a0, newline
+    syscall
+    add $t4, $t1, $t2       
+    move $t1, $t2
+    move $t2, $t4           
