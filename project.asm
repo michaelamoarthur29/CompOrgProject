@@ -45,5 +45,5 @@ fibonacci_loop:
     j fibonacci_loop       
 
 exit:
-    li $v0, 10              # Exit program
+    li $v0, 10              
     syscall
