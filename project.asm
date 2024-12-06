@@ -4,7 +4,7 @@
     newline: .asciiz "\n"
     
 .text
- main:
+main:
     li $v0, 4               
     la $a0, prompt          
     syscall
