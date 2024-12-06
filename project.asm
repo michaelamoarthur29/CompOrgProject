@@ -39,6 +39,10 @@ fibonacci_loop:
     syscall
     add $t4, $t1, $t2       
     move $t1, $t2
+
+exit:
+    li $v0, 10              
+    syscall
     move $t2, $t4           
 
  addi $t3, $t3, 1        
